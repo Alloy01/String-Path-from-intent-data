@@ -1,7 +1,7 @@
 # String-Path-from-intent-data
 This repository contains how to get string file path of intent data path.
 
-#Get string path from data using:
+# Get string path from data using:
 ```
 public static String getPath(final Context context, final Uri uri){
         final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
